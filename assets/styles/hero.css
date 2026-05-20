@@ -1,0 +1,62 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.hero-container {
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+  padding: 40px;
+
+
+}
+.hero-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+
+}
+.hero-meta img {
+  width: 30px;
+
+}
+.hero-meta span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 14px;
+  padding: 8px 16px;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero-description {
+  font-size: 18px;
+  font-family: "Muli";
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.read-btn {
+  color: white;
+  background-color: #598155;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  gap: 8px;
+}

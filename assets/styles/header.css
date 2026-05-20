@@ -1,0 +1,59 @@
+header {
+  display: flex;
+  flex-direction: column;
+  font-family: "Oswald";
+  background-image: url(/assets/images/h1-rev-slide3-bckg.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bordinha {
+  position: absolute;
+  bottom: 0;
+}
+
+.opcoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  border-top: 1px solid rgba(255, 255, 255, 0.712);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.712);
+  width: 95vw;
+  margin-top: 20px;
+  margin: 40px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.destination-search img {
+  height: 30px;
+  width: 30px;
+  gap: 5px;
+}
+.destination-search {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+.destination-search h1 {
+  font-family: "Oswald";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.links {
+  display: flex;
+  gap: 40px;
+  font-size: 18x;
+  text-transform: uppercase;
+}
+.links a {
+  text-decoration: none;
+}
+.destination-search a {
+  text-decoration: none;
+}
