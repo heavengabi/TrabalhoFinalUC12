@@ -14,7 +14,6 @@ header {
 .bordinha {
   position: absolute;
   bottom: -1px;
-  left: 0;
   width: 100%;
   line-height: 0;
 }
@@ -60,7 +59,9 @@ header {
   font-size: 18x;
   text-transform: uppercase;
 }
-
+.links a:hover{
+  background-color: rgb(255, 255, 255);
+}
 .links a {
   text-decoration: none;
 }

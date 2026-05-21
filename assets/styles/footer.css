@@ -1,0 +1,141 @@
+footer {
+    background-color: #222222; 
+    color: #ffffff;
+    padding: 60px 20px;
+    font-family: 'Georgia', serif; 
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo2 img {
+    max-width: 150px;
+    height: auto;
+}
+
+.texto-introducao {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1.6;
+    color: #cccccc;
+    margin: 0;
+}
+
+
+.highlight {
+    background-color: #ffffff;
+    color: #222222;
+    padding: 2px 8px;
+
+}
+
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #333333;
+    margin: 10px 0;
+}
+
+.informations {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.infos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+
+.infos h2 {
+    font-family: 'Oswald', sans-serif; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.infos p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #aaaaaa;
+    margin: 0;
+}
+
+
+.newsletter-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.newsletter-form input {
+    background: transparent;
+    border: none;
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 8px 12px;
+    font-style: italic;
+    outline: none;
+    font-size: 14px;
+}
+
+
+.subscribe {
+
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+
+.recent-posts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post-date {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: #556b2f; 
+    margin-bottom: 4px;
+}
+
+.post-date img {
+    width: 14px;
+    height: auto;
+}
+
+.tag img{
+    height:20px;
+    margin-top: 5px;
+
+}

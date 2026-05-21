@@ -1,3 +1,52 @@
-.card-image{
-    height: 50px;
+.blog-section {
+  background-image: url(/assets/images/h1-bckg-05.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image {
+  width: 418px;
+  height: 499px;
+}
+
+.container-cards {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  width: 419px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.card span {
+  margin-top: 20px;
+  font-family: "Crimson";
+
+  font-size: 18px;
+}
+.card h1 {
+  color: black;
+  font-family: "Oswald";
+  font-size: 29px;
+}
+
+.tagBlog {
+  position: absolute;
+  top: 15px;
+  left: -10px;
+  background: #f3efe8;
+  padding: 6px 18px;
+  font-size: 13px;
+  color: #8a847b;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0.5px;
 }
