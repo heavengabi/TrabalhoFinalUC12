@@ -3,15 +3,21 @@ header {
   flex-direction: column;
   font-family: "Oswald";
   background-image: url(/assets/images/h1-rev-slide3-bckg.jpg);
-  height: 100vh;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   position: relative;
-}
-.bordinha {
-  position: absolute;
-  bottom: 0;
+  overflow: hidden;
 }
 
+.bordinha {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+}
 .opcoes {
   display: flex;
   align-items: center;
@@ -34,26 +40,31 @@ header {
   width: 30px;
   gap: 5px;
 }
+
 .destination-search {
   display: flex;
   align-items: center;
   padding: 20px;
   gap: 10px;
 }
+
 .destination-search h1 {
   font-family: "Oswald";
   font-size: 16px;
   text-transform: uppercase;
 }
+
 .links {
   display: flex;
   gap: 40px;
   font-size: 18x;
   text-transform: uppercase;
 }
+
 .links a {
   text-decoration: none;
 }
+
 .destination-search a {
   text-decoration: none;
 }
