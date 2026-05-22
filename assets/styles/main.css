@@ -1,9 +1,10 @@
-@import url(./style.css);
-@import url(./hero.css);
-@import url(./reset.css);
-@import url(./header.css);
-@import url(./titles-logos.css);
-@import url(./travel-section.css);
-@import url(./section-subscribe.css);
-@import url(./blog-section.css);
-@import url(./footer.css);
+@import url(/assets/styles/style.css);
+@import url(/assets/styles/hero.css);
+@import url(/assets/styles/reset.css);
+@import url(/assets/styles/header.css);
+@import url(/assets/styles/titles-logos.css);
+@import url(/assets/styles/travel-section.css);
+@import url(/assets/styles/section-subscribe.css);
+@import url(/assets/styles/blog-section.css);
+@import url(/assets/styles/footer.css);
+
