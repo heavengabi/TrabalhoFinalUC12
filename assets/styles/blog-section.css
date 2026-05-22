@@ -4,7 +4,7 @@ background-image:url(/assets/images/h1-bckg-05.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
-padding:120px 0;
+padding:120px;
 }
 
 .container-cards{
@@ -98,6 +98,6 @@ font-size:15px;
 letter-spacing:1px;
 text-decoration:none;
 color:#111;
-transition:0.3s ease;
+
 }
 
