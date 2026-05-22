@@ -3,42 +3,41 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  position: relative;
+  opacity: 0;
+  animation: fadeIn 1.5s ease forwards;
 }
+
 .hero-container {
   max-width: 800px;
   width: 90%;
   text-align: center;
-  padding: 40px;
-
-
+  padding: 20px;
 }
+
 .hero-meta {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
-  margin-bottom: 30px;
-
+  margin-bottom: 10px;
 }
+
 .hero-meta img {
   width: 30px;
-
 }
+
 .hero-meta span {
   display: flex;
   align-items: center;
-  gap: 8px;
   color: white;
   font-size: 14px;
-  padding: 8px 16px;
+
 }
 
 .hero-title {
   font-size: 48px;
   color: white;
-  margin-bottom: 20px;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
@@ -55,8 +54,55 @@
   border: none;
   padding: 12px 30px;
   font-size: 16px;
-  font-weight: bold;
   cursor: pointer;
   align-items: center;
   gap: 8px;
+  font-family: "Oswald";
+  text-transform: uppercase;
+}
+
+.fundoSeta {
+  position: absolute;
+  top: 40%;
+  z-index: 10;
+  background-image: url('/assets/images/fundobranco.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 20px 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.fundoSeta.seta-esquerda {
+  left: 20px;
+  margin: 20px;
+}
+
+.fundoSeta.seta-direita {
+  right: 20px;
+  margin: 20px;
+}
+
+
+.seta-banner {
+  width: 45px;
+  height: auto;
+  display: block;
+  pointer-events: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
